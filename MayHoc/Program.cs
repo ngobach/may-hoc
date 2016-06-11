@@ -16,8 +16,8 @@ namespace MayHoc
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new FormSplash());
-            Application.Run(new FormMain());
+            Application.Run(new FormSplash());
+            //Application.Run(new FormMain());
         }
     }
 }
