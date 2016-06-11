@@ -1,14 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
-using System.Linq;
-using System.Media;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using RestSharp;
-using NAudio;
 using NAudio.Wave;
 
 namespace MayHoc.Core
@@ -16,7 +8,6 @@ namespace MayHoc.Core
     public class VNSpeech : ITextToSpeech, IDisposable
     {
         private readonly byte[] _data;
-        private SoundPlayer _player;
 
         private readonly IWavePlayer waveOutDevice = new WaveOut();
 

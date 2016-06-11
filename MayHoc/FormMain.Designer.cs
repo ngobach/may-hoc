@@ -169,8 +169,8 @@
             this.txtContent.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtContent.Size = new System.Drawing.Size(711, 457);
             this.txtContent.TabIndex = 0;
-            this.txtContent.Text = "Đồ án Máy học:\r\nChuyển văn bản thành giọng nói\r\nSinh Viên Thực hiện: Ngô Xuân Bác" +
-    "h, Trần Anh Đức\r\nGiảng viên hướng dẫn: Nguyễn Thị Thu Hà\r\n";
+            this.txtContent.Text = "Đồ án Máy học:\r\nNhận dạng từ văn bản sang tiếng nói\r\nSinh Viên Thực hiện: Ngô Xuâ" +
+    "n Bách, Trần Anh Đức\r\nGiảng viên hướng dẫn: Tiến sĩ Nguyễn Thị Thu Hà\r\n";
             // 
             // formButtons
             // 
@@ -294,7 +294,7 @@
             this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Máy Học: Văn bản sang tiếng nói :: Ngô Xuân Bách - Trần Anh Đức";
+            this.Text = "Máy Học: Nhận dạng từ văn bản sang tiếng nói :: Ngô Xuân Bách - Trần Anh Đức";
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
